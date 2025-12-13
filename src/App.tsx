@@ -3,7 +3,6 @@ import React from 'react';
 import SmoothScrollLayout from './components/SmoothScrollLayout';
 import HorizontalScroll from './components/HorizontalScroll';
 import BuyMeCoffee from './components/BuyMeCoffee';
-import { Analytics } from "@vercel/analytics/react"
 
 
 
@@ -370,7 +369,6 @@ const JohnCenaTribute: React.FC = () => {
 
   return (
     <div className="bg-black">
-      <Analytics />
       {/* <Confetti width={windowSize.width} height={windowSize.height} numberOfPieces={50} recycle={true} /> */}
       
     
